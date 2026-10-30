@@ -58,7 +58,7 @@ native system locale; an unsupported code follows the same fallback. Regional ta
 Simplified Chinese remain distinct. Every Portuguese locale (`pt`, `pt-BR`, `pt-PT`) uses the
 Brazilian Portuguese catalog. The Serbian catalog is written in Latin script (Ekavian); every
 Serbian locale (`sr-RS`, `sr-Latn-RS`, `sr_RS@latin`, and Cyrillic `sr-Cyrl-RS`) resolves to it.
-The Bosnian catalog is likewise Latin script (Ijekavian), and every Bosnian locale (`bs-BA`,
+The Bosnian catalog is written in Latin script (Ijekavian); every Bosnian locale (`bs-BA`,
 `bs-Latn-BA`, `bs_BA.UTF-8`, and Cyrillic `bs-Cyrl-BA`) resolves to it.
 Swedish locales from Sweden and Finland (`sv-SE`, `sv-FI`, `sv_FI.UTF-8`) use the Swedish catalog;
 Finnish (`fi-FI`) uses the Finnish one. Every Norwegian locale (`nb-NO`, the macrolanguage `no`,

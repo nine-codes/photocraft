@@ -15,6 +15,8 @@ fn lang(code: &str) -> Lang {
     Lang::from_code(code).expect("registered language")
 }
 
+/// Regional locale tags (`fr-CA`, `ko-KR`, `bs-BA` …) resolve to their registered catalog, as
+/// a preference and as a system tag.
 #[test]
 fn requested_languages_resolve_regional_preferences() {
     for (tag, code) in [
